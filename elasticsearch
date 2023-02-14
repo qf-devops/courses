@@ -4,7 +4,14 @@ Cluster management
       setup ELK cluster
       Elastic Cloud
       Xpack Security
-
+      
+Indexes managemnt with shards
+      primary shards
+      replica shards
+      lucene indexes
+      index paterns
+      node managemnt
+      
 Data processing
       Importing data with Script
       Importing with Client Libraries
@@ -12,29 +19,14 @@ Data processing
       filebeat
       Metricbeat
       fluentd
-      
-Elasticsearch aggregations
-      Introduction to aggregations
-      Aggregations, Buckets, and Metrics
-      Histograms
-      TimeSeries
-      Generating Histogram data
-      Nested Aggregations
-   
-Indexes managemnt with shards
-      primary shards
-      replica shards
-      lucene indexes
-      index paterns
-      node managemnt
-   
+    
 Data management
       ILM Policies
       Index lifecycle management
       Index Design Changes (Grouping, Splitting, and Shrinking Indices)
       Snapshots
       Uptime monitoring with heartbeat
-  
+
 Searching with ElasticSearch 
       JSON Search In-Depth
       Phrase Matching
@@ -44,8 +36,16 @@ Searching with ElasticSearch
       More with Filters
       Fuzzy Queries
       Partial Matching
-      N-grams
+      N-grams      
 
+Elasticsearch aggregations
+      Introduction to aggregations
+      Aggregations, Buckets, and Metrics
+      Histograms
+      global aggrgations
+      Range aggregations
+      Nested Aggregations
+   
 Collecting APM data
       Introduction and usage
       api client api from application
