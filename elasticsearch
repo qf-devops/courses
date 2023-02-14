@@ -19,3 +19,45 @@
 •	Actionable observability data
 •	Visualizing observability data
 •	Managing observability data
+
+
+Installing and Understanding Elasticsearch - 3
+   Overview
+   Architecture of ELK and usage
+   Install ELK using VMs 
+   Install ELK using Docker 
+   Install ELK Using Kubernetes
+   Elastic Cloud
+
+Mapping and indexing Data - 2
+   Connecting to ElK cluster
+   Pumping  data to Elasticsearch
+   filebeat
+   Metricbeat
+Searching with ElasticSearch - 4
+  JSON Search In-Depth
+  Phrase Matching
+  Querying in Different Ways
+  Pagination
+  Sorting
+  More with Filters
+  Fuzzy Queries
+  Partial Matching
+ N-grams
+
+Importing Data into your Index - Big or Small -3
+  Importing data with Script
+  Importing with Client Libraries
+  Installing Logstash
+Analyzing Log Data with the ElasticStack- 2
+  Data Frame. Transforms
+  File beat  and Elastic Stack Architecture
+  Xpack Security
+ Analysing Logs with Kibana Dashboards.
+
+Elasticsearch Operations - 3
+    ILM Policies
+    Index lifecycle management
+    Index Design Changes (Grouping, Splitting, and Shrinking Indices)
+    Snapshots
+    Uptime monitoring with heartbeat
