@@ -1,7 +1,12 @@
 •	Data processing
 
 •	Elasticsearch aggregations
-   Introduction to aggregations
+      Introduction to aggregations
+      Aggregations, Buckets, and Metrics
+      Histograms
+      TimeSeries
+      Generating Histogram data
+      Nested Aggregations
    
 •	The one about shards
 
