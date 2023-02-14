@@ -1,6 +1,17 @@
-•	Data processing
+Cluster management
+      Overview
+      Architecture of ELK and usage
+      setup ELK cluster
+      Elastic Cloud
+      Xpack Security
 
-•	Elasticsearch aggregations
+Data processing
+      Connecting to ElK cluster
+      Pumping  data to Elasticsearch
+      filebeat
+      Metricbeat
+      fluentd
+Elasticsearch aggregations
       Introduction to aggregations
       Aggregations, Buckets, and Metrics
       Histograms
@@ -8,56 +19,51 @@
       Generating Histogram data
       Nested Aggregations
    
-•	The one about shards
+Indexes managemnt with shards
+      primary shards
+      replica shards
+      lucene indexes
+      index paterns
+      node managemnt
+   
+Data management
+      ILM Policies
+      Index lifecycle management
+      Index Design Changes (Grouping, Splitting, and Shrinking Indices)
+      Snapshots
+      Uptime monitoring with heartbeat
+  
+Searching with ElasticSearch 
+      JSON Search In-Depth
+      Phrase Matching
+      Querying in Different Ways
+      Pagination
+      Sorting
+      More with Filters
+      Fuzzy Queries
+      Partial Matching
+      N-grams
+  
+Collecting logs and metrics
+      Importing data with Script
+      Importing with Client Libraries
+      Installing Logstash
 
-•	Data management
-•	Cluster management
-•	Collecting logs and metrics
-•	Collecting APM data
-•	Working with observability data
-•	Structuring and processing data
-•	Actionable observability data
-•	Visualizing observability data
-•	Managing observability data
+Collecting APM data
+      Introduction and usage
+      api client api from application
+      analyse infra logs
+      analyze application perf logs 
+  
+Observability
+      collect logs, metrcs and uptime data
+      analyze and monitor data
+      create dash boards for collected data
+      manage data with ilm policies
 
 
-Installing and Understanding Elasticsearch - 3
-   Overview
-   Architecture of ELK and usage
-   Install ELK using VMs 
-   Install ELK using Docker 
-   Install ELK Using Kubernetes
-   Elastic Cloud
 
-Mapping and indexing Data - 2
-   Connecting to ElK cluster
-   Pumping  data to Elasticsearch
-   filebeat
-   Metricbeat
-Searching with ElasticSearch - 4
-  JSON Search In-Depth
-  Phrase Matching
-  Querying in Different Ways
-  Pagination
-  Sorting
-  More with Filters
-  Fuzzy Queries
-  Partial Matching
- N-grams
 
-Importing Data into your Index - Big or Small -3
-  Importing data with Script
-  Importing with Client Libraries
-  Installing Logstash
-Analyzing Log Data with the ElasticStack- 2
-  Data Frame. Transforms
-  File beat  and Elastic Stack Architecture
-  Xpack Security
- Analysing Logs with Kibana Dashboards.
 
-Elasticsearch Operations - 3
-    ILM Policies
-    Index lifecycle management
-    Index Design Changes (Grouping, Splitting, and Shrinking Indices)
-    Snapshots
-    Uptime monitoring with heartbeat
+
+
